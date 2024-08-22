@@ -6,7 +6,7 @@ function connect_db(){
         $host = "localhost";
         $username = "root";
         $password = "";
-        $database = "project-1";
+        $database = "project1";
         $port = 3306;
 
         $conn = mysqli_connect($host, $username, $password, $database, $port);
